@@ -1,6 +1,5 @@
 # Load DSL and set up stages
 require "capistrano/setup"
-# config valid for current version and patch releases of Capistrano
 require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/rails/assets' # for asset handling add
